@@ -59,3 +59,9 @@ Here are the major dependencies used in this project:
 - **yup**: ^1.4.0
 - **@hookform/resolvers**: ^3.9.0
 - **react-router-dom**: ^6.22.3
+
+# Application URL & Credentials
+
+- **URL**: https://app-profile-management.netlify.app/
+- **Username**: Admin
+- **Password**: Admin@123
