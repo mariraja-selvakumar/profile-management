@@ -36,7 +36,7 @@ const ProfileDisplay: React.FC = () => {
         </Typography>
         <Box my={1}>
           <CustomButton
-            id="login-btn2"
+            id="btn-create-profile"
             name="Create Profile"
             onClick={goToCreateProfile}
           />
@@ -62,7 +62,7 @@ const ProfileDisplay: React.FC = () => {
 
       <Box my={1}>
         <CustomButton
-          id="one"
+          id="btn-create-profile-2"
           name="Create Profile"
           onClick={goToCreateProfile}
         />

@@ -72,14 +72,14 @@ const Login = () => {
         </Typography>
         <Box component="form" onSubmit={handleSubmit(onSubmit)}>
           <CustomTextField
-            id="username"
+            id="txt-username"
             name="username"
             control={control}
             label="Username"
           />
 
           <CustomTextField
-            id="password"
+            id="txt-password"
             name="password"
             control={control}
             label="Password"

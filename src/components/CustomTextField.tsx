@@ -28,6 +28,7 @@ const CustomTextField = <TField extends FieldValues>({
           error={Boolean(error)}
           helperText={error?.message}
           fullWidth
+          type={name === "password" ? "password" : "text"}
           {...field}
           sx={{ mb: 2 }}
         />

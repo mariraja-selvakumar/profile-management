@@ -70,7 +70,7 @@ const ProfileForm: React.FC = () => {
 
       <Box my={1}>
         <CustomButton
-          id="login-btn2"
+          id="btn-go-to-profiles"
           name="Go To Profiles"
           onClick={goToProfiles}
         />
@@ -88,7 +88,7 @@ const ProfileForm: React.FC = () => {
       <CustomTextField id="age" label="age" name="age" control={control} />
 
       <Box sx={{ textAlign: "center", marginTop: "1rem" }}>
-        <CustomButton type="submit" id="submit" name="Submit" />
+        <CustomButton type="submit" id="btn-submit" name="Submit" />
       </Box>
     </Box>
   );
